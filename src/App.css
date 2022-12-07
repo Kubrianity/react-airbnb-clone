@@ -22,3 +22,50 @@ section {
 .section-text {
   margin-top: 0;
 }
+.info {
+  color: #918E9B;
+}
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+  overflow-x: auto;
+  margin: 0 3em;
+}
+.card {
+  width:310px;
+  font-size: 0.9em;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card-img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.sub-items {
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  height: 1em;
+}
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-price {
+  margin-top:auto;
+}
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
